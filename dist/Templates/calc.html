@@ -1,0 +1,33 @@
+<div id="box1">
+							<h2>
+								Calculator Design 1
+							</h2>
+                            <p>
+                            Welcome to my second ever JavaScript Project. I always liked the idea of making a calculator and practising JavaScript gave me the perfect oppurtunity to do so. I went for a slightly different approach to most JavaScript calculators in that it uses two text boxes to input numbers and then a series on buttons each indicating a operation of the calculator. Once the information is input and a button clicked the calculation is then output into a table which stores all previous calculations. I will be making another calculator soon in the traditional way but this was an interesting project since no one had do it like this before.
+                            	<p class=""> JavaScript Link >>>  &nbsp; <a href="js/Project2-Calculator.js"> Project2-Calculator.js </a> </p>
+                                <fieldset>
+                                <p class=""> This is my Calculator Enjoy!! :) </p>
+                                <form>
+                                <input type="text" id="input1" name="input1" value="" />
+                                <input type="text" id="input2" name="input2" value="" />
+                                <p></p>
+                                <input type="button" value="Multiply" onClick="multiply('table1', this.form.input1.value, this.form.input2.value)" />
+                                <input type="button" value="Add" onClick="add('table1', this.form.input1.value, this.form.input2.value)" />
+                                <input type="button" value="Subtract" onClick="subtract('table1', this.form.input1.value, this.form.input2.value)" />
+                                <input type="button" value="Power" onClick="power('table1', this.form.input1.value, this.form.input2.value)" />
+                                <input type="button" value="Clear" onClick="reset1()" />
+                                <input type="button" value="Delete History" onClick="reset2()" />
+                                <p> </p>
+                                <p> Answers!! </p>
+                                <p align="center" style="text-align:center; position:relative;">  <hr align=center width=400 color=Black> </p>
+                                <table id="table1" class="center" align="center">
+                                <tbody> 
+                                    <tr>
+                                        <td>	
+                                        </td>
+                                    </tr>
+                                </tbody>
+                                </table>
+                                </form>
+                            	</fieldset>
+						</div>

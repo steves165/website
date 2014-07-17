@@ -1,0 +1,92 @@
+<div id="box1">
+							<h2>
+								Calculator Design 1
+							</h2>
+                            <p>
+                             Well i've finally done it, it took me ages but I have made another calculator and this time it is one with a full standard interface. I went on loads of different tutorial sites but all of their methods either didnt work or were rubbish and complicated. So I decided to build one myself from scratch the way I wanted to make, and I think my way is very neat! :P I will be making a tutorial on how to make this type of calculator once i've got past some of the other projects that I have planned. As usual feel free to use the code in any way that you like. Thanks for reading. :)
+                        <p class=""> JavaScript Link >>> &nbsp;&nbsp; <a href="js/Calculator2.js"> Calculator2.js </a> </p>
+                            <form name="Keypad" action="">
+                                <table border=2 width=50 height=60 cellpadding=1 cellspacing=5 align="center">
+                                	<tr>
+                                    	<td colspan="3">
+                                        	<input type="text" name="ReadOut" id="ReadOut" value="0" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  C  " onClick="clearAll()" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  CE  " onClick="clearEntry()" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<input type="button" value="  7  " onClick="numPressed(7)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  8  " onClick="numPressed(8)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  9  " onClick="numPressed(9)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="+/-" onClick="negative()" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  %  " onClick="percentage()" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<input type="button" value="  4  " onClick="numPressed(4)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  5  " onClick="numPressed(5)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  6  " onClick="numPressed(6)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  +  " onClick="operator('+')" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  -  " onClick="operator('-')" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<input type="button" value="  1  " onClick="numPressed(1)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  2  " onClick="numPressed(2)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  3  " onClick="numPressed(3)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  *  " onClick="operator('*')" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  /  " onClick="operator('/')" />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                    	<td>
+                                        	<input type="button" value="  0  " onClick="numPressed(0)" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  .  " onClick="decimal1()" />
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="POW" onClick="operator('^')" />
+                                        </td>
+                                        <td>
+                                        	&nbsp;&nbsp;&nbsp;
+                                        </td>
+                                        <td>
+                                        	<input type="button" value="  =  " onClick="equals2()" />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                            </p>
+						</div>
