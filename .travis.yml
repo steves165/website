@@ -1,5 +1,4 @@
 language: node_js
 node_js:
-  - "lts/*
-before_install:
-  - echo "Hello world"
+  - "iojs"
+  - "7"
